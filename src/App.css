@@ -471,7 +471,7 @@ footer {
     align-items: center;
 }
 
-@media (max-width : 1200px) {
+@media (max-width : 1440px) {
 
     .contents img {
         display: none;
@@ -489,14 +489,16 @@ footer {
     }
 
     .project-border {
-        width: 304px;
+        /* width: 304px; */
+        width: 100%;
     }
 
     .project-box {
-        height: 130px;
+        min-height: 130px;
     }
 
     .line {
+        padding: 10px;
         border: 20px solid white;
         border-radius: 0px 0px 8px 8px;
         font-weight: 700;
